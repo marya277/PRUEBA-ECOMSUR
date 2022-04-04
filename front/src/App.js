@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from 'react'
+import "./App.css"
+import GetProducts from './components/Home'
 
 const App = () => {
   // -------------------------------------------------
@@ -19,11 +21,9 @@ const App = () => {
   // -------------------------------------------------
 
   return (
-    <div style={{ textAlign: 'center' }}>
+    <div >
       <h1> Prueba tecnica front Ecomsur 2021</h1>
-      <p>Borra esto y comienza aqui.</p>
-      {/* Check to see if express server is running correctly */}
-      <h5>{response}</h5>
+    <GetProducts/>
     </div>
   )
 }
